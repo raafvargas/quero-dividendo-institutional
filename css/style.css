@@ -1810,7 +1810,8 @@ ul {
 
 @media (max-width: 991px) {
   .main_menu {
-    padding: 20px 0px;
+    padding: 12px 0px;
+    height: 75px;
   }
 
   .navbar-nav {
@@ -1933,6 +1934,7 @@ ul {
   }
 
   .main_menu {
+    padding: 12px 0px;
     height: 75px;
   }
 }
@@ -2003,9 +2005,6 @@ ul {
 }
 .menu_fixed .btn_1:hover {
   border: 1px solid #564099;
-}
-.menu_fixed .main-menu-item ul li .nav-link {
-  color: #fff !important;
 }
 .menu_fixed .main_logo {
   display: block;

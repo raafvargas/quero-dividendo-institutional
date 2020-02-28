@@ -110,7 +110,8 @@
 
 @media #{$tab} {
 	.main_menu {
-		padding: 20px 0px;
+		padding: 12px 0px;
+		height: 75px;
 	}
 	.navbar-nav {
 		margin-left: 0 !important;
@@ -242,6 +243,7 @@
 		left: auto;
 	}
 	.main_menu{
+		padding: 12px 0px;
 		height: 75px;
 	}
 
@@ -319,13 +321,6 @@
 		color: $black_color;
 		&:hover{
 			border: 1px solid $btn_bg;
-		}
-	}
-	.main-menu-item {
-		ul {
-			li .nav-link {
-				color: #fff !important;
-			}
 		}
 	}
 	.main_logo{
