@@ -1,4 +1,5 @@
 /**********************footer part css*******************/
+
 .footer_part {
 	@include background("../img/footer_bg.png");
 	padding: 130px 0px 25px;
@@ -133,7 +134,7 @@
 	}
 
 	.footer_icon {
-		text-align: right;
+		text-align: center;
 
 		li {
 			display: inline-block;
