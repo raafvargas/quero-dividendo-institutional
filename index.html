@@ -1,324 +1,412 @@
-<!doctype html>
-<html lang="pt-br">
+<!DOCTYPE html>
+<html lang="pt">
 
 <head>
-    <!-- Required meta tags -->
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-    <title>recoli</title>
-    <link rel="icon" href="img/favicon.png">
-    <!-- Bootstrap CSS -->
-    <link rel="stylesheet" href="css/bootstrap.min.css">
-    <!-- animate CSS -->
-    <link rel="stylesheet" href="css/animate.css">
-    <!-- owl carousel CSS -->
-    <link rel="stylesheet" href="css/owl.carousel.min.css">
-    <!-- font awesome CSS -->
-    <link rel="stylesheet" href="css/all.css">
-    <!-- flaticon CSS -->
-    <link rel="stylesheet" href="css/flaticon.css">
-    <link rel="stylesheet" href="css/themify-icons.css">
-    <!-- font awesome CSS -->
-    <link rel="stylesheet" href="css/magnific-popup.css">
-    <!-- swiper CSS -->
-    <link rel="stylesheet" href="css/slick.css">
-    <!-- style CSS -->
-    <link rel="stylesheet" href="css/style.css">
+  <title>Recoli</title>
+  <link rel="icon" href="images/favicon.png">
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 
-    <!-- Global site tag (gtag.js) - Google Analytics -->
-    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-159339609-1"></script>
-    <script>
-        window.dataLayer = window.dataLayer || [];
 
-        function gtag() {
-            dataLayer.push(arguments);
-        }
-        gtag('js', new Date());
+  <link href="https://fonts.googleapis.com/css?family=Nunito:300,400,700" rel="stylesheet">
+  <link rel="stylesheet" href="fonts/icomoon/style.css">
 
-        gtag('config', 'UA-159339609-1');
-    </script>
+  <link rel="stylesheet" href="css/bootstrap.min.css">
+  <link rel="stylesheet" href="css/jquery-ui.css">
+  <link rel="stylesheet" href="css/owl.carousel.min.css">
+  <link rel="stylesheet" href="css/owl.theme.default.min.css">
+  <link rel="stylesheet" href="css/owl.theme.default.min.css">
+
+  <link rel="stylesheet" href="css/jquery.fancybox.min.css">
+
+  <link rel="stylesheet" href="css/bootstrap-datepicker.css">
+
+  <link rel="stylesheet" href="fonts/flaticon/font/flaticon.css">
+
+  <link rel="stylesheet" href="css/aos.css">
+
+  <link rel="stylesheet" href="css/style.css">
+
 </head>
 
-<body>
-    <!--::header part start::-->
-    <header class="main_menu">
-        <div class="container">
-            <div class="row align-items-center">
-                <div class="col-lg-12">
-                    <nav class="navbar navbar-expand-lg navbar-light">
-                        <a class="navbar-brand main_logo" href="#">
-                            <img src="./img/logo.png" width="151">
-                        </a>
-                        <a class="navbar-brand single_page_logo" href="#">
-                            <img src="./img/logo.png" width="151">
-                        </a>
-                        <button class="navbar-toggler" type="button" data-toggle="collapse"
-                            data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
-                            aria-expanded="false" aria-label="Toggle navigation">
-                            <span class="menu_icon"></span>
-                        </button>
+<body data-spy="scroll" data-target=".site-navbar-target" data-offset="300">
 
-                        <div class="collapse navbar-collapse main-menu-item" id="navbarSupportedContent">
-                            <ul class="navbar-nav">
-                                <li class="nav-item">
-                                    <a class="nav-link" href="#usuarios">Cliente</a>
-                                </li>
-                                <li class="nav-item">
-                                    <a class="nav-link" href="#deliveryman">Entregador</a>
-                                </li>
-                                <li class="nav-item">
-                                    <a class="nav-link" href="#ecommerce">E-commerce</a>
-                                </li>
-                            </ul>
-                        </div>
-                    </nav>
-                </div>
-            </div>
+
+  <div id="overlayer"></div>
+  <div class="loader">
+    <div class="spinner-border text-primary" role="status">
+      <span class="sr-only">Carregando...</span>
+    </div>
+  </div>
+
+  <div class="site-wrap" id="home-section">
+
+    <div class="site-mobile-menu site-navbar-target">
+      <div class="site-mobile-menu-header">
+        <div class="site-mobile-menu-close mt-3">
+          <span class="icon-close2 js-menu-toggle"></span>
         </div>
+      </div>
+      <div class="site-mobile-menu-body"></div>
+    </div>
+
+
+    <header class="site-navbar py-4 js-sticky-header site-navbar-target" role="banner">
+
+      <div class="container">
+        <div class="row align-items-center">
+
+          <div class="col-6 col-md-2 col-xl-4 d-block">
+            <img src="images/logo.png" width="151px" alt="recoli logo" class="mb-0 site-logo">
+          </div>
+
+          <div class="col-12 col-md-10 col-xl-8 main-menu">
+            <nav class="site-navigation position-relative text-right" role="navigation">
+
+              <ul class="site-menu main-menu js-clone-nav mr-auto d-none d-lg-block ml-0 pl-0">
+                <li><a href="#home-section" class="nav-link">Home</a></li>
+                <li class="has-children">
+                  <a href="#about-section" class="nav-link">Sobre a Recoli</a>
+                  <ul class="dropdown arrow-top">
+                    <li><a href="#about-section" class="nav-link">Missão</a></li>
+                    <li><a href="#our-team-section" class="nav-link">Nosso Time</a></li>
+                  </ul>
+                </li>
+                <li><a href="#features-section" class="nav-link">Plataforma</a></li>
+                <li><a href="#work-flow" class="nav-link">Como Funciona</a></li>
+                <li><a href="https://forms.gle/d8WcwmLw3epFDMuX6" target="_blank" class="btn btn-primary">QUERO SER
+                    RECOLI</a>
+                </li>
+              </ul>
+            </nav>
+          </div>
+
+
+          <div class="col-6 col-md-9 d-inline-block d-lg-none ml-md-0"><a href="#"
+              class="site-menu-toggle js-menu-toggle text-black float-right"><span class="icon-menu h3"></span></a>
+          </div>
+
+        </div>
+      </div>
+
     </header>
-    <!--::Header part end::-->
 
-    <!--::banner part start::-->
-    <section class="banner_part">
-        <div class="container">
-            <div class="row align-items-center justify-content-between">
-                <div class="col-lg-6">
-                    <div class="banner_img d-none d-lg-block">
-                        <img src="img/banner_img.png" alt="">
-                    </div>
-                </div>
-                <div class="col-lg-6">
-                    <div class="banner_text">
-                        <div class="banner_text_iner">
-                            <h1>Conectando devoluções com os entregadores</h1>
-                            <p>A tecnologia da Recoli está revolucionando o processo de logística reversa dos
-                                e-commerces de
-                                fashion.</p>
-                        </div>
-                    </div>
-                </div>
+
+    <div class="site-blocks-cover" style="overflow: hidden;">
+      <div class="container">
+        <div class="row align-items-center justify-content-center">
+
+          <div class="col-md-12" style="position: relative;" data-aos="fade-up" data-aos-delay="200">
+
+            <img src="images/undraw_investing_7u74.svg" alt="Image" class="img-fluid img-absolute">
+
+            <div class="row mb-4" data-aos="fade-up" data-aos-delay="200">
+              <div class="col-lg-6 mr-auto">
+                <h1>Conectando devoluções com os entregadores</h1>
+                <p class="mb-5">A tecnologia da Recoli está revolucionando o processo de logística reversa dos
+                  e-commerces de fashion.</p>
+              </div>
+
+
             </div>
-        </div>
-        <img src="img/animate_icon/Ellipse_7.png" alt="" class="feature_icon_1 custom-animation1">
-        <img src="img/animate_icon/Ellipse_8.png" alt="" class="feature_icon_2 custom-animation2">
-        <img src="img/animate_icon/Ellipse_1.png" alt="" class="feature_icon_3 custom-animation3">
-        <img src="img/animate_icon/Ellipse_2.png" alt="" class="feature_icon_4 custom-animation4">
-        <img src="img/animate_icon/Ellipse_3.png" alt="" class="feature_icon_5 custom-animation5">
-        <img src="img/animate_icon/Ellipse_4.png" alt="" class="feature_icon_6 custom-animation6">
-    </section>
-    <!--::banner part start::-->
 
-    <!--::use sasu part end::-->
-    <section class="use_sasu padding_top">
-        <div class="container">
-            <div class="row justify-content-center">
-                <div class="col-lg-4 col-sm-6">
-                    <div class="single_feature">
-                        <div class="single_feature_part">
-                            <img src="img/icon/user.png" alt="">
-                            <h4>Clientes</h4>
-                            <p>Nossa tecnologia facilita o processo de devolução de produto buscando o conforto para o
-                                cliente</p>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-lg-4 col-sm-6">
-                    <div class="single_feature">
-                        <div class="single_feature_part">
-                            <img src="img/icon/deliveryman.png" alt="">
-                            <h4>Entregadores</h4>
-                            <p>Escolha quando quer fazer suas coletas, com total liberdade para escolher suas rotas
-                                assim decidindo quanto você que ganhar com o app da Recoli</p>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-lg-4 col-sm-6">
-                    <div class="single_feature">
-                        <div class="single_feature_part">
-                            <img src="img/icon/shopping-online.png" alt="">
-                            <h4>E-commerce Fashion</h4>
-                            <p>Queremos ajudar na sua logística reversa pois é um processo chato, caro e que gera
-                                dúvidas nos clientes no pré e pós venda.</p>
-                        </div>
-                    </div>
-                </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+
+    <div class="site-section" id="features-section">
+      <div class="container">
+        <div class="row mb-4 justify-content-center text-center" data-aos="fade-up">
+          <div class="col-7 text-center  mb-5">
+            <h2 class="section-title">Nossa Plataforma</h2>
+            <p class="lead">Simplificamos a burocracia da logística reversa do seu e-commerce.</p>
+          </div>
+        </div>
+        <div class="row align-items-stretch">
+          <div class="col-md-6 col-lg-4 mb-4 mb-lg-4" data-aos="fade-up">
+
+            <div class="unit-4 d-block">
+              <div class="unit-4-icon mb-3">
+                <span class="icon-wrap"><span class="text-primary icon-whatsapp"></span></span>
+              </div>
+              <div>
+                <h3>Comunicação</h3>
+                <p>Manter uma boa comunição durante a troca é fundamental. Nossa plataforma utilza o
+                  WhatsApp como ferramenta de comunição com os clientes</p>
+              </div>
             </div>
-        </div>
-        <img src="img/animate_icon/Ellipse_1.png" alt="" class="feature_icon_1 custom-animation1">
-    </section>
-    <!--::use sasu part end::-->
 
-    <!--::about_us part start::-->
-    <section id="usuarios" class="about_us section_padding">
-        <div class="container">
-            <div class="row align-items-center justify-content-between">
-                <div class="col-md-6 col-lg-5">
-                    <div class="about_us_text">
-                        <h2>Facilitando <br>
-                            a Troca</h2>
-                        <p>O cliente acessa o site do e-commerce e solicita uma troca. Nesse momento a Recoli envia uma
-                            notificação para o cliente escolher seu endereço e agendar o melhor dia para retirada do
-                            produto.</p>
-                    </div>
-                </div>
-                <div class="col-md-6 col-lg-6">
-                    <div class="learning_img">
-                        <img src="img/review_bg.png" alt="">
-                    </div>
-                </div>
+          </div>
+
+          <div class="col-md-6 col-lg-4 mb-4 mb-lg-4" data-aos="fade-up" data-aos-delay="100">
+
+            <div class="unit-4 d-block">
+              <div class="unit-4-icon mb-3">
+                <span class="icon-wrap"><span class="text-primary icon-heart"></span></span>
+              </div>
+              <div>
+                <h3>Fidelização e NPS</h3>
+                <p>O medo da troca afasta os clientes do e-commerce. Um bom processo de troca vai fidelizar seu cliente
+                  e aumentar o seu NPS</p>
+              </div>
             </div>
-        </div>
-        <img src="img/animate_icon/Ellipse_4.png" alt="" class="feature_icon_1 custom-animation1">
-    </section>
-    <!--::about_us part end::-->
-    <br>
-    <!--::about_us part start::-->
-    <section id="deliveryman" class="about_us right_time">
-        <div class="container">
-            <div class="row align-items-center justify-content-between">
-                <div class="col-md-6 col-lg-6">
-                    <div class="learning_img">
-                        <img src="img/about_deliveryman.png" alt="">
-                    </div>
-                </div>
-                <div class="col-md-6 col-lg-5">
-                    <div class="about_us_text">
-                        <h2>Coleta de produtos</h2>
-                        <p>Criamos as melhores rotas para os Recolis buscarem esses produtos conforme o agendamento do
-                            cliente e podemos notificar o e-commerce para liberaçao dos créditos.</p>
-                        <a href="https://forms.gle/d8WcwmLw3epFDMuX6" class="btn_2">Cadastrar</a>
-                    </div>
-                </div>
+          </div>
+
+          <div class="col-md-6 col-lg-4 mb-4 mb-lg-4" data-aos="fade-up">
+            <div class="unit-4 d-block">
+              <div class="unit-4-icon mb-3">
+                <span class="icon-wrap"><span class="text-primary icon-settings_backup_restore"></span></span>
+              </div>
+              <div>
+                <h3>Retentativa</h3>
+                <p>Seu cliente não estava em casa? Sem problemas. É só marcar um novo local e data que faremos a coleta
+                </p>
+              </div>
             </div>
-        </div>
-        <img src="img/animate_icon/Ellipse_5.png" alt="" class="feature_icon_2 custom-animation2">
-    </section>
-    <!--::about_us part end::-->
-    <br>
+          </div>
 
-    <!--::about_us part start::-->
-    <section id="ecommerce" class="about_us section_padding">
-        <div class="container">
-            <div class="row align-items-center justify-content-between">
-                <div class="col-md-6 col-lg-5">
-                    <div class="about_us_text">
-                        <h2>Entrega para <br>
-                            o e-commerce</h2>
-                        <p>O e-commerce cadastra na plataforma onde o Recoli pode devolver os produtos podendo ser em
-                            lojas fisicas, centro de distribuiçao ou para alguma transportadora de sua escolha.
-                        </p>
-                    </div>
-                </div>
-                <div class="col-md-6 col-lg-6">
-                    <div class="learning_img">
-                        <img src="img/shopping-business-illustration.png" alt="">
-                    </div>
-                </div>
+          <div class="col-md-6 col-lg-4 mb-4 mb-lg-4" data-aos="fade-up" data-aos-delay="200">
+            <div class="unit-4 d-block">
+              <div class="unit-4-icon mb-3">
+                <span class="icon-wrap"><span class="text-primary icon-clock-o"></span></span>
+              </div>
+              <div>
+                <h3>Tempo</h3>
+                <p>Seu cliente leva em média de 4-7 dias para fazer uma troca. A Recoli pode reduizir esse
+                  tempo para D+1 liberando o reembolso no momento da coleta</p>
+              </div>
             </div>
-        </div>
-        <img src="img/animate_icon/Ellipse_4.png" alt="" class="feature_icon_1 custom-animation1">
-    </section>
-    <!--::about_us part end::-->
-    <br>
+          </div>
 
-    <!--
-    <section id="contact" class="subscribe_part padding_bottom">
-        <div id="mc_embed_signup">
-            <form action="https://recoli.us4.list-manage.com/subscribe/post?u=c1aba19af39f1e57769e3c39a&id=3eef9e913e"
-                method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" class="validate"
-                target="_blank" novalidate>
-                <div class="container">
-                    <div class="row justify-content-center">
-                        <div class="col-lg-8">
-                            <div class="subscribe_part_text text-center">
-                                <h2>Que saber mais?</h2>
-                                <div class="subscribe_form">
-                                    <form action="#">
-                                        <div class="form-row">
-                                            <div class="col-sm-9">
-                                                <input type="email" value="" name="EMAIL" class="email form-control"
-                                                    placeholder="email" id="mce-EMAIL" placeholder="email address"
-                                                    required>
-                                            </div>
-                                            <div class="col-sm-3">
-                                                <div class="subscribe_btn">
-                                                    <input type="submit" value="Subscribe" name="subscribe"
-                                                        id="mc-embedded-subscribe" class="btn_2 d-block">
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </form>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <img src="img/animate_icon/Ellipse_5.png" alt="" class="feature_icon_2 custom-animation2">
-            </form>
-        </div>
-    </section>-->
-
-
-    <!--::footer_part start::-->
-    <footer class="footer_part">
-        <div class="container">
-            <div class="row">
-                <div class="col-sm-6 col-md-6 col-lg-6">
-                    <div class="single_footer_part">
-                        <a href="index.html" class="footer_logo_iner">
-                            <img src="./img/footer_logo.png" width="151">
-                        </a>
-                        <p>A Recoli é uma startup que resolve um dos maiores problemas dos e-commerces de moda: o
-                            processo de reversa.
-                            Nossa missão é tornar esse processo chato para o cliente em uma oportunidade do e-commerce
-                            ter uma "experiência uau" na troca, engajando e fidelizando seus clientes.
-                        </p>
-                    </div>
-                </div>
-                <div class="col-sm-6 col-md-6 col-lg-6 col-center">
-                    <div class="footer_icon social_icon">
-                        <ul class="list-unstyled">
-                            <li><a href="https://www.facebook.com/recolioficial" target="_blank"
-                                    class="single_social_icon"><i class="fab fa-facebook-f"></i></a></li>
-                            <li><a href="https://www.linkedin.com/company/recolibr/about/" target="_blank"
-                                    class="single_social_icon"><i class="fab fa-linkedin"></i></a></li>
-                            <li><a href="https://www.instagram.com/recolioficial/" target="_blank"
-                                    class="single_social_icon"><i class="fab fa-instagram"></i></a></li>
-                        </ul>
-                    </div>
-                </div>
+          <div class="col-md-6 col-lg-4 mb-4 mb-lg-4" data-aos="fade-up" data-aos-delay="200">
+            <div class="unit-4 d-block">
+              <div class="unit-4-icon mb-3">
+                <span class="icon-wrap"><span class="text-primary icon-power"></span></span>
+              </div>
+              <div>
+                <h3>Plug & Play</h3>
+                <p>Nossa plataforma está pronta para se integrar às principais
+                  plataforma e-commerce do mercado</p>
+              </div>
             </div>
-            <hr>
-        </div>
-    </footer>
-    <!--::footer_part end::-->
+          </div>
 
-    <!-- jquery plugins here-->
-    <script src="js/jquery-1.12.1.min.js"></script>
-    <!-- popper js -->
-    <script src="js/popper.min.js"></script>
-    <!-- bootstrap js -->
-    <script src="js/bootstrap.min.js"></script>
-    <!-- easing js -->
-    <script src="js/jquery.magnific-popup.js"></script>
-    <!-- swiper js -->
-    <script src="js/swiper.min.js"></script>
-    <!-- swiper js -->
-    <script src="js/masonry.pkgd.js"></script>
-    <!-- particles js -->
-    <script src="js/owl.carousel.min.js"></script>
-    <script src="js/jquery.nice-select.min.js"></script>
-    <!-- slick js -->
-    <script src="js/slick.min.js"></script>
-    <script src="js/jquery.counterup.min.js"></script>
-    <script src="js/waypoints.min.js"></script>
-    <script src="js/contact.js"></script>
-    <script src="js/jquery.ajaxchimp.min.js"></script>
-    <script src="js/jquery.form.js"></script>
-    <script src="js/jquery.validate.min.js"></script>
-    <script src="js/mail-script.js"></script>
-    <!-- custom js -->
-    <script src="js/custom.js"></script>
+          <div class="col-md-6 col-lg-4 mb-4 mb-lg-4" data-aos="fade-up" data-aos-delay="100">
+            <div class="unit-4 d-block">
+              <div class="unit-4-icon mb-3">
+                <span class="icon-wrap"><span class="text-primary icon-pin_drop"></span></span>
+              </div>
+              <div>
+                <h3>Logística Reversa</h3>
+                <p>A loja pode escolher onde vamos entregar os itens que foram coletados. Correios,
+                  transportadoras, lojas físicas, CD... O que fizer mais sentido para o seu modelo de negócio</p>
+              </div>
+            </div>
+          </div>
+
+        </div>
+      </div>
+    </div>
+
+    <div class="feature-big">
+      <div class="site-section" id="work-flow">
+        <div class="container">
+          <div class="row mb-4 justify-content-center text-center" data-aos="fade-up">
+            <div class="col-7 text-center mb-5">
+              <h2 class="section-title">Como funciona?</h2>
+              <p class="lead">Tudo mundo quer uma experiência de troca <span class="primary bold">UAU</span>, né? :)</p>
+            </div>
+          </div>
+
+          <div class="mb-4 justify-content-center text-center">
+            <div class="how-to-image" data-aos="fade-right">
+              <img src="images/telegram.png" alt="envio" width="150px">
+            </div>
+            <div class="mt-md-4">
+              <h4 class="text-black">Solicitação de troca</h2>
+                <p class="col-7 mb-4 how-to-description">O cliente faz a solicitação da troca normalmente na loja, a
+                  Recoli
+                  é um método de reversa. A loja pode ter uma integração direta com
+                  nossas <span class="primary bold">APIs</span>
+                  ou enviar um <span class="primary bold">arquivo</span> (Excel, CSV...)</p>
+
+            </div>
+          </div>
+
+          <div class="mb-4 justify-content-center text-center">
+            <div class="how-to-image" data-aos="fade-right">
+              <img src="images/calendar.png" alt="agendamento" width="150px">
+            </div>
+            <div class="mt-md-4">
+              <h4 class="text-black">Agendamento</h2>
+                <p class="col-7 mb-4 how-to-description">Nossa plataforma enviará uma mensagem automática via <span
+                    class="primary bold">WhatsApp</span> para o cliente. Nesse momento ele irá escolher quando e onde
+                  vamos realizar a
+                  coleta</p>
+
+            </div>
+          </div>
+
+          <div class="mb-4 justify-content-center text-center">
+            <div class="how-to-image" data-aos="fade-right">
+              <img src="images/tracking.png" alt="coleta em casa" width="150px">
+            </div>
+            <div class="mt-md-4">
+              <h4 class="text-black">Coleta</h2>
+                <p class="col-7 mb-4 how-to-description">Imprevistos sempre acontecem. No dia na coleta
+                  enviamos uma mensagem de confirmação para o cliente, nesse momento ele pode <span
+                    class="primary bold">cancelar</span> ou <span class="primary bold">reagendar</span> a coleta</p>
+
+            </div>
+          </div>
+
+          <div class="mb-4 justify-content-center text-center">
+            <div class="how-to-image" data-aos="fade-right">
+              <img src="images/ui.png" alt="controle de qualidade" width="150px">
+            </div>
+            <div class="mt-md-4">
+              <h4 class="text-black">Qualidade</h2>
+                <p class="col-7 mb-4 how-to-description">O Recoli irá fazer o <span class="primary bold">controle de
+                    qualidade</span> antes de receber
+                  o produto. Isso garante que a loja não vai receber um produto usado ou sem etiqueta
+
+            </div>
+          </div>
+
+          <div class="mb-4 justify-content-center text-center">
+            <div class="how-to-image" data-aos="fade-right">
+              <img src="images/bet.png" alt="reembolso" width="150px">
+            </div>
+            <div class="mt-md-4">
+              <h4 class="text-black">Reembolso</h2>
+                <p class="col-7 mb-4 how-to-description">Nossa plataforma está pronta para notificar a loja que o
+                  reembolso já pode ser liberado, dimunindo o <span class="primary bold">tempo de espera</span> do
+                  cliente
+
+            </div>
+          </div>
+
+        </div>
+      </div>
+    </div>
+
+
+    <div class="site-section bg-light" id="about-section">
+      <div class="container">
+        <div class="row mb-5">
+          <div class="col-12 text-center">
+            <h2 class="section-title mb-3">Sobre a Recoli</h2>
+          </div>
+        </div>
+        <div class="row mb-5">
+          <div class="col-lg-6" data-aos="fade-right">
+            <img src="images/undraw_bookmarks_r6up.svg" alt="Image" class="img-fluid">
+          </div>
+          <div class="col-lg-5 ml-auto pl-lg-5">
+            <h2 class="text-black mb-4 h3 font-weight-bold">Nossa Missão</h2>
+            <p class="mb-4"><span class="bold primary">Oferecer a melhor experiência de troca fashion do mundo</span>.
+              Ser uma soluação única de reversa para os clientes dos e-commerces de moda, oferecendo a
+              segurança que o cliente precisa durante o processo de troca e auxiliando os e-commerces a crescerem cada
+              vez mais.</p>
+            <ul class="ul-check mb-5 list-unstyled success">
+              <li>Focado no <span class="primary bold">mundo fashion</span></li>
+              <li><span class="primary bold">Cliente</span> no centro de tudo</li>
+              <li>A melhor <span class="primary bold">experiência</span> </li>
+              <li><span class="primary bold">Parceiro</span> de verdade</li>
+            </ul>
+          </div>
+        </div>
+
+
+      </div>
+    </div>
+
+    <div class="site-section" id="our-team-section">
+      <div class="container">
+        <div class="row mb-5 justify-content-center text-center" data-aos="fade-up">
+          <div class="col-7 text-center  mb-5">
+            <h2 class="section-title">Nosso Time</h2>
+          </div>
+        </div>
+
+        <div class="row justify-content-center">
+
+          <div class="col-lg-4 col-md-6 mb-4" data-aos="fade-up" data-aos-delay="100">
+            <div class="person text-center">
+              <div class="bio-img">
+                <figure>
+                  <img src="images/gui.jpeg" alt="Image" class="img-fluid">
+                </figure>
+                <div class="social">
+                  <a href="https://www.linkedin.com/in/guilherme-firmiano-28575350/"><span
+                      class="icon-linkedin"></span></a>
+                </div>
+              </div>
+              <h2 class="text-black h1">Guilherme Firmiano</h2>
+              <span class="sub-title d-block mb-3">Founder</span>
+              <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptatum excepturi corporis qui doloribus
+                perspiciatis ipsa modi accusantium repellat.</p>
+            </div>
+          </div>
+
+          <div class="col-lg-4 col-md-6 mb-4" data-aos="fade-up" data-aos-delay="200">
+            <div class="person text-center">
+              <div class="bio-img">
+                <figure>
+                  <img src="images/rafa.jpeg" alt="Image" class="img-fluid">
+                </figure>
+                <div class="social">
+                  <a href="https://www.linkedin.com/in/rafa-vargas/"><span class="icon-linkedin"></span></a>
+                </div>
+              </div>
+              <h2 class="text-black h1">Rafael Vargas</h2>
+              <span class="sub-title d-block mb-3">Founder</span>
+              <p>Sempre adorei falar sobre tecnologia e inovação. Ter um pensamento inovador e questionar o
+                modo que algo é feito é a chave para abrir nossa cabeça para o mundo.
+                Foi aí que me apaixonei pelo mundo do empreendedorismo :)</p>
+
+            </div>
+          </div>
+
+
+
+        </div>
+      </div>
+    </div>
+
+
+    <div class="footer py-5 text-center">
+      <div class="container">
+        <div class="row mb-5">
+          <div class="col-12">
+            <p class="mb-0">
+              <a href="https://facebook.com/recolioficial" class="p-3"><span class="icon-facebook"></span></a>
+              <a href="https://www.instagram.com/recolioficial" class="p-3"><span class="icon-instagram"></span></a>
+              <a href="https://www.linkedin.com/company/recolibr/" class="p-3"><span class="icon-linkedin"></span></a>
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div> <!-- .site-wrap -->
+
+  <script src="js/jquery-3.3.1.min.js"></script>
+  <script src="js/jquery-ui.js"></script>
+  <script src="js/popper.min.js"></script>
+  <script src="js/bootstrap.min.js"></script>
+  <script src="js/owl.carousel.min.js"></script>
+  <script src="js/jquery.countdown.min.js"></script>
+  <script src="js/bootstrap-datepicker.min.js"></script>
+  <script src="js/jquery.easing.1.3.js"></script>
+  <script src="js/aos.js"></script>
+  <script src="js/jquery.fancybox.min.js"></script>
+  <script src="js/jquery.sticky.js"></script>
+
+
+  <script src="js/main.js"></script>
+
 </body>
 
 </html>
