@@ -176,6 +176,14 @@ h5,
   box-shadow: none !important;
 }
 
+@media (max-width:768px) {
+  .store-badget {
+    display: block;
+    margin: 0 auto;
+    position: relative;
+  }
+}
+
 .site-section {
   padding: 20px 0;
 }
